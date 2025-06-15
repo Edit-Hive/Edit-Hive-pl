@@ -23,17 +23,14 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section
-      id="hero"
-      className="min-h-screen flex items-center "
-    >
+    <section id="hero" className="min-h-screen flex items-center ">
       <div className="container mx-auto px-4 py-20">
         <div className="flex flex-wrap justify-between items-start gap-8 lg:gap-16">
           {/* Left Content */}
           <div className="flex-1 min-w-[300px] flex flex-col items-center lg:items-start text-center lg:text-left">
             <Image
               ref={logoRef}
-              src="/placeholder.svg?height=120&width=120"
+              src="/logo.png"
               alt="Edit Hive Productions Logo"
               width={120}
               height={120}
@@ -69,7 +66,10 @@ export function HeroSection() {
                 <span className="text-green-400 mr-3">✅</span>
                 100% customer satisfaction
               </li>
-             
+              <li className="flex items-center">
+                <span className="text-green-400 mr-3">✅</span>
+                100% refund if you're not satisfied
+              </li>
             </ul>
           </div>
         </div>
