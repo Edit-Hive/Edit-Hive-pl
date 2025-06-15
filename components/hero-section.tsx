@@ -14,7 +14,7 @@ export function HeroSection() {
 
       setTimeout(() => {
         if (logoRef.current) {
-          logoRef.current.style.transition = "all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55)"
+          logoRef.current.style.transition = "all 2s cubic-bezier(0.50, -0.45, 0.255, 1.45)"
           logoRef.current.style.opacity = "1"
           logoRef.current.style.transform = "translateX(0)"
         }
@@ -32,8 +32,8 @@ export function HeroSection() {
               ref={logoRef}
               src="/logo.png"
               alt="Edit Hive Productions Logo"
-              width={120}
-              height={120}
+              width={300}
+              height={3000}
               className="mb-4"
             />
             <h1 className="text-4xl lg:text-5xl font-bold text-[#facc15] mb-6">EditHive Productions</h1>
