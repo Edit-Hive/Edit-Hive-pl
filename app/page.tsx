@@ -1,4 +1,10 @@
-import Head from "next/head"; // Add this import
+import dynamic from 'next/dynamic';
+import { Suspense } from 'react';
+
+// Dynamically import Canvas with ssr: false to disable SSR
+const Canvas = dynamic(() => import('@react-three/fiber').then((mod) => mod.Canvas), {
+  ssr: false,
+});
 
 export default function Home() {
   return (
