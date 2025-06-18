@@ -1,3 +1,4 @@
+import Head from "next/head"; // Add this importAdd commentMore actions
 import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
 
