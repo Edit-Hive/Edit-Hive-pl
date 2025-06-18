@@ -12,6 +12,8 @@ import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
+    <Head><meta name="google-site-verification" content="RIpeAJrAyIDgpHXTWevo5AT45gMepH_n6p25fdvajXI" />
+        </Head>
     <div className="relative min-h-screen bg-[#0d0d0d] text-white">
       {/* Fixed 3D Background */}
       <div className="fixed inset-0 z-0">
